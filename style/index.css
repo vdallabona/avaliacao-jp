@@ -1,0 +1,105 @@
+.geral {
+    background: linear-gradient(133deg, rgb(124, 18, 18) 0%, rgb(0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quadrado {
+    background-color: rgb(0, 0, 0);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height:70%;
+    border-radius: 1ch;
+    color: white;
+    padding: 5%;
+}
+
+main {
+    margin-top: 5%;
+}
+
+button {
+    background: rgb(65,135,210);
+    background: linear-gradient(90deg, rgba(65,135,210,1) 0%, rgba(125,80,180,1) 100%);
+    width: 80%;
+    border: hidden;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: white;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: “Arial Black”, sans-serif;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+p{
+    margin-bottom: 1%;
+}
+input {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-top: hidden;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(218, 216, 216);
+}
+
+.conteudo {
+    display: grid;
+    margin-left: 10%;
+    row-gap: 10%;
+}
+
+.textinhoL {
+    display: inline-grid;
+    grid-column: 1;
+}
+
+.textinhoR {
+    display: inline-grid;
+    grid-column: 2;
+}
+
+.textinhoBL {
+    display: inline-grid;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.textinhoBR {
+    display: inline-grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+span{
+    color: rgb(143, 143, 143);
+}
+
+a{
+    color: rgb(136, 136, 247);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
