@@ -40,6 +40,7 @@ h1 {
     margin-bottom: 10%;
     font-weight: bold;
 }
+
 h2 {
     font-size: 1.5rem;
     margin-bottom: 3%;
@@ -47,6 +48,7 @@ h2 {
 
 p{
     margin-bottom: 1%;
+    padding: 4px;
 }
 input {
     width: 80%;
@@ -65,29 +67,46 @@ input {
 .conteudo {
     display: grid;
     margin-left: 10%;
-    row-gap: 10%;
+    row-gap: 20%;
+    column-gap: 10%;
 }
 
 .textinhoL {
     display: inline-grid;
     grid-column: 1;
+    background-color: rgb(104, 2, 2);
+    border-radius: 1ch;
+    padding: 2%;
+    box-shadow: 7px 7px 20px rgb(255, 255, 255);
 }
 
 .textinhoR {
     display: inline-grid;
     grid-column: 2;
+    background-color: rgb(104, 2, 2);
+    border-radius: 1ch;
+    padding: 2%;
+    box-shadow: 7px 7px 20px rgb(255, 255, 255);
 }
 
 .textinhoBL {
     display: inline-grid;
     grid-column: 1;
     grid-row: 2;
+    background-color: rgb(104, 2, 2);
+    border-radius: 1ch;
+    padding: 2%;
+    box-shadow: 7px 7px 20px rgb(255, 255, 255);
 }
 
 .textinhoBR {
     display: inline-grid;
     grid-column: 2;
     grid-row: 2;
+    background-color: rgb(104, 2, 2);
+    border-radius: 1ch;
+    padding: 2%;
+    box-shadow: 7px 7px 20px rgb(255, 255, 255);
 }
 
 span{
