@@ -185,10 +185,12 @@ li{
     margin-left: 1%;
     border-radius: 0.5ch;
     padding: 1%;
+    margin-top: 10%;
 }
 
 .comentarios li{
     background-color: rgb(0, 0, 0);
     margin-top: 1%;
     color: white;
+    border-radius: 0.5ch;
 }
